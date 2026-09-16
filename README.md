@@ -38,9 +38,9 @@ pnpm preview
 
 ## Deploy (Vercel)
 
-The Vite config includes Nitro so TanStack Start can run on Vercel.
+The Vite config includes Nitro so TanStack Start can run on Vercel. Import the GitHub repo at [vercel.com/new](https://vercel.com/new) and select `axcellence/cursor-showcase`.
 
-Import the GitHub repo at [vercel.com/new](https://vercel.com/new) and select `axcellence/cursor-showcase`, or from a logged-in machine:
+From a machine logged into Axl’s Vercel account:
 
 ```bash
 npx vercel login
@@ -48,7 +48,7 @@ npx vercel link
 npx vercel deploy --prod
 ```
 
-Vercel should detect TanStack Start. No extra build command or output directory is required.
+Vercel should detect TanStack Start. No extra build command or output directory is required. A production URL on the GitHub-linked project needs a Vercel login or `VERCEL_TOKEN`; anonymous CLI deploys expire unless claimed.
 
 ## Stack
 
